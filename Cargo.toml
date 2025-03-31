@@ -2,6 +2,14 @@
 name = "southeast-nacos"
 version = "0.1.0"
 edition = "2021"
+authors = ["Rollp0x <zkrollp@gmail.com>"]
+description = "A Rust library for retrieving configuration from Nacos with AWS KMS integration"
+repository = "https://github.com/yourusername/southeast-nacos"
+documentation = "https://docs.rs/southeast-nacos"
+readme = "README.md"
+keywords = ["nacos", "configuration", "aws", "kms", "alibaba"]
+categories = ["config", "api-bindings", "authentication"]
+license = "MIT OR Apache-2.0"
 
 [features]
 full = []
