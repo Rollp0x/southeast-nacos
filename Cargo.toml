@@ -1,0 +1,17 @@
+[package]
+name = "southeast-nacos"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+full = []
+
+[dependencies]
+serde = {version = "*", features = ["derive"]}
+serde_json = "*"
+base64 = "0.22.0"
+rust-crypto = "0.2.36"
+aws-config = { version = "1.1.7", features = ["behavior-version-latest"]}
+aws-sdk-kms = {version = "1.40.0"}
+nacos-sdk = { version = "0.4", features = ["default"]}
+
